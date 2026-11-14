@@ -1,0 +1,13 @@
+# Odonto em Pauta
+
+> Portal editorial em português sobre gestão, inovação e mercado odontológico.
+
+Artigos: /artigos
+Comparativos: /comparativos
+Metodologia: /metodologia
+Política editorial: /politica-editorial
+Glossário: /glossario
+RSS: /feed.xml
+Sitemap: /sitemap.xml
+
+Os conteúdos são informativos; links e referências devem ser conferidos em sua origem. Este arquivo é uma convenção experimental e não garante inclusão em respostas ou treinamento de sistemas de IA.

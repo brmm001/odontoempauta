@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <main className="shell inner-page"><div className="kicker">ERRO 404</div><h1>Página não <em>encontrada.</em></h1><p>O endereço pode ter mudado ou não existir.</p><Link className="btn btn-dark" href="/">Voltar ao início ↗</Link></main>}
