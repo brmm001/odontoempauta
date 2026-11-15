@@ -118,5 +118,17 @@
       "url": "https://www.gov.br/anvisa/pt-br/assuntos/servicosdesaude"
     },
     "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "biofilme-nas-linhas-de-agua-do-equipo",
+    "term": "Biofilme nas linhas de água do equipo odontológico",
+    "category": "Biossegurança",
+    "definition": "Comunidade de microrganismos aderida às superfícies internas dos tubos que conduzem água no equipo odontológico, envolvida por uma matriz que favorece sua persistência. A formação desse biofilme pode comprometer a qualidade microbiológica da água utilizada em instrumentos como a seringa tríplice e a peça de alta rotação.",
+    "context": "Tubulações estreitas, fluxo intermitente e períodos de estagnação favorecem o acúmulo de biofilme. O CDC orienta tratar e monitorar regularmente a água dos equipos, seguindo as instruções do fabricante, para atender ao parâmetro microbiológico recomendado de até 500 unidades formadoras de colônias de bactérias heterotróficas por mililitro. Usar apenas um reservatório independente não assegura controle do biofilme. Em procedimentos cirúrgicos, a irrigação requer solução estéril e sistema apropriado que não dependa das linhas convencionais do equipo. As recomendações do CDC não substituem exigências sanitárias brasileiras aplicáveis.",
+    "source": {
+      "title": "CDC — Best Practices for Dental Unit Water Quality (2024)",
+      "url": "https://www.cdc.gov/dental-infection-control/hcp/dental-ipc-faqs/best-practices-dental-unit-water-quality.html"
+    },
+    "publishedAt": "2026-11-15"
   }
 ]
