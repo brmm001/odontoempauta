@@ -35,6 +35,6 @@ Validar indexação em Search Console e Bing Webmaster Tools, configurar domíni
 - A fonte dos verbetes é `content/glossary.json`; sem banco de dados ou credenciais no navegador.
 - Cada entrada precisa ter `slug`, `term`, `category`, `definition`, `context`, `source:{title,url}`, `publishedAt`.
 - A página `/glossario` tem pesquisa e paginação de 24 verbetes; todas as definições aparecem em HTML no servidor.
-- `npm run audit:glossary` bloqueia duplicatas, descrições rasas, URLs inválidas e lotes incompletos para as dez datas de 15 a 24 de novembro de 2026.
-- Planejamento editorial: até 100 verbetes originais por dia nas dez datas, condicionados a fontes verificáveis e à aprovação do build. Não criar entradas artificiais para completar uma meta.
+- `npm run audit:glossary` bloqueia duplicatas, descrições rasas, URLs inválidas e lotes diários com quantidade diferente de 1 nas dez datas de 15 a 24 de novembro de 2026.
+- Planejamento editorial: 1 verbete original por dia, até 10 no total, nas dez datas, condicionados a fontes verificáveis e à aprovação do build. Não criar entradas artificiais para completar uma meta.
 - O projeto de automação fica no agendador da conta ChatGPT e **não** no repositório. Sem chaves de API ou tokens.

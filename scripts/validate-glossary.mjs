@@ -25,6 +25,6 @@ for(const [i,term] of rows.entries()){
  perDate.set(term.publishedAt,(perDate.get(term.publishedAt)||0)+1);
 }
 for(const [date,count] of perDate.entries()){
- if(date>='2026-11-15'&&date<='2026-11-24'&&count!==100)throw new Error('Daily batch '+date+' contains '+count+' terms (must publish one complete batch of 100 or skip day)');
+ if(date>='2026-11-15'&&date<='2026-11-24'&&count!==1)throw new Error('Daily batch '+date+' contains '+count+' terms (must publish exactly 1 verified term or skip day)');
 }
 console.log('Glossary validation passed: '+rows.length+' distinct entries; daily batches '+JSON.stringify(Object.fromEntries(perDate)));
