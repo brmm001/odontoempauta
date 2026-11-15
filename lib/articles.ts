@@ -1,3 +1,4 @@
+import dailyDispatches from '@/content/dispatches.json';
 export type Topic = 'Regulação' | 'Saúde pública' | 'Biossegurança' | 'Radiologia' | 'Tecnologia' | 'Pesquisa';
 export type Section = { id: string; title: string; paragraphs: string[]; bullets?: string[] };
 export type Article = {
@@ -7,7 +8,7 @@ export type Article = {
   insights: string[]; sections: Section[]; faq: {question:string;answer:string}[];
   sources: {title:string;organization:string;url:string}[];
 };
-export const articles: Article[] = [
+const evergreenArticles: Article[] = [
 {
 slug:'rdc-1002-2025-odontologia-boas-praticas',
 title:'RDC 1.002/2025: como ler a nova regra sanitária da odontologia',
@@ -139,6 +140,7 @@ faq:[
 sources:[{title:'Oral health — Fact sheet',organization:'Organização Mundial da Saúde',url:'https://www.who.int/news-room/fact-sheets/detail/oral-health'},{title:'SB Brasil 2023 — relatório final',organization:'Ministério da Saúde',url:'https://bvsms.saude.gov.br/bvs/publicacoes/sb_brasil_2023_relatorio_final_1edrev.pdf'}]
 }
 ];
+export const articles: Article[] = [...(dailyDispatches as unknown as Article[]), ...evergreenArticles].sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
 export const articleBySlug=(slug:string)=>articles.find(a=>a.slug===slug);
 export const topics=['Todos','Regulação','Saúde pública','Biossegurança','Radiologia','Tecnologia','Pesquisa'] as const;
 export function readingMinutes(a:Article){const words=[a.deck,...a.insights,...a.sections.flatMap(s=>[...s.paragraphs,...(s.bullets||[])]),...a.faq.map(f=>f.answer)].join(' ').split(/\s+/).filter(Boolean).length;return Math.max(5,Math.ceil(words/190))}
