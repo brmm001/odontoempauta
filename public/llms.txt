@@ -1,13 +1,14 @@
 # Odonto em Pauta
 
-> Portal editorial em português sobre gestão, inovação e mercado odontológico.
+> Revista digital em português dedicada a ciência, contexto e odontologia, com foco em fontes primárias e transparência editorial.
 
-Artigos: /artigos
-Comparativos: /comparativos
-Metodologia: /metodologia
-Política editorial: /politica-editorial
-Glossário: /glossario
-RSS: /feed.xml
-Sitemap: /sitemap.xml
+- Página inicial: /
+- Dossiês e artigos: /artigos
+- Dados do SB Brasil 2023: /dados
+- Glossário: /glossario
+- Nossa metodologia: /metodologia
+- Política editorial: /politica-editorial
+- RSS: /feed.xml
+- Sitemap: /sitemap.xml
 
-Os conteúdos são informativos; links e referências devem ser conferidos em sua origem. Este arquivo é uma convenção experimental e não garante inclusão em respostas ou treinamento de sistemas de IA.
+Os documentos citados não endossam o portal. O conteúdo não substitui avaliação clínica, legal ou técnica individual. Este arquivo é uma convenção experimental e não constitui requisito para aparecer em sistemas de IA.

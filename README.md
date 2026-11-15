@@ -1,30 +1,31 @@
 # Odonto em Pauta
 
-Portal editorial independente sobre gestão, finanças e inovação na odontologia.
+Portal editorial digital sobre ciência, pesquisa, normas sanitárias e tecnologia odontológica. Projeto independente na infraestrutura: não compartilha código, conteúdo nem SEO com outros sites.
 
-## Desenvolvimento
+## Executar
 
 ```bash
 npm install
-npm run typecheck
 npm run dev
 npm run build
 ```
 
-## Produção
+Vercel: conectado ao GitHub `brmm001/odontoempauta` na branch `main`. O endereço canônico vem de `NEXT_PUBLIC_SITE_URL`.
 
-Importe o repositório na Vercel, selecione **Next.js**, configure `NEXT_PUBLIC_SITE_URL` com o endereço final (por exemplo, `https://www.odontoempauta.com.br`) e publique. O domínio é um exemplo, não há confirmação de registro.
+## Princípios editoriais
+- Sem duplicar pautas e artigos de sites comerciais relacionados; auditoria inicial em títulos e slugs do repositório Benavera.
+- Não publicar notícias inventadas nem resumir fontes sem contribuição editorial.
+- Artigos com tópicos claros, síntese, fontes primárias e FAQ visível.
+- Publicação e revisão com datas reais; nenhuma credencial fictícia.
+- Conteúdo informativo, sem diagnóstico clínico nem parecer jurídico.
 
 ## SEO e descoberta por IA
+- Next.js com HTML no servidor e artigos estáticos.
+- Metadata individual e canonical; sitemap e RSS.
+- Article, BreadcrumbList, WebSite e Organization em JSON-LD.
+- OAI-SearchBot e GPTBot permitidos em robots.txt.
+- llms.txt é opcional e não confere autoridade nem garante treinamento.
+- Imagens editoriais vetoriais próprias; sem fotos de terceiros ou ativos protegidos.
 
-App Router, renderização no servidor, páginas estáticas de artigos, metadados individuais, canonical, schema `WebSite` e `Article`, sitemap, RSS, robots com acesso a OAI-SearchBot e GPTBot e `llms.txt` experimental.
-
-Acessibilidade para rastreadores não significa que IA utilizará o site como fonte, citará o conteúdo ou o incluirá em treinamento.
-
-## Conteúdo e integridade
-
-Edite artigos em `lib/articles.ts`. Não há CMS administrativo nem publicação automatizada nesta versão. Notícias só devem ser inseridas com verificação de fatos, autoria e fontes. Não inventar notícias, clientes, números ou depoimentos. Conteúdos patrocinados e vínculos comerciais relevantes precisam ser identificados.
-
-## Antes do lançamento
-
-Verifique domínio e marca, configure e-mail editorial, revise conteúdo jurídico/financeiro, configure Search Console e Bing Webmaster Tools, realize build e teste em produção.
+## Próximas etapas editoriais
+Validar indexação em Search Console e Bing Webmaster Tools, configurar domínio e contato; revisar conteúdo com especialistas identificáveis para matérias técnicas, estabelecer agenda de apuração original.

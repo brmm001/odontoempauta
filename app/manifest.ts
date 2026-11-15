@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function manifest():MetadataRoute.Manifest{return {name:'Odonto em Pauta',short_name:'Odonto em Pauta',description:'Dossiês e pesquisa em odontologia',start_url:'/',display:'standalone',background_color:'#f8f7f2',theme_color:'#112c2b',lang:'pt-BR',icons:[{src:'/favicon.svg',sizes:'any',type:'image/svg+xml'}]}}
