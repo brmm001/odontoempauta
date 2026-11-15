@@ -38,3 +38,50 @@
 @media(max-width:1150px){.oe-header-tag{display:none}.oe-nav-desktop{gap:17px}.oe-header-inner{width:calc(100% - 42px)}}
 @media(max-width:830px){.oe-header-inner{min-height:76px;gap:20px}.oe-logo-mark{width:48px;height:48px;font-size:38px}.oe-logo-word{font-size:16px}.oe-nav-desktop,.oe-header-action{display:none}.oe-nav-mobile{display:block;margin-left:auto;align-self:stretch;position:relative}.oe-nav-mobile summary{height:100%;display:flex;align-items:center;gap:15px;cursor:pointer;font-size:12px;font-weight:850;letter-spacing:.12em;list-style:none}.oe-nav-mobile summary::-webkit-details-marker{display:none}.oe-nav-mobile summary span{font-size:20px}.oe-nav-mobile[open] nav{position:absolute;right:-21px;top:76px;width:min(330px,100vw);background:#f2f0e8;border:1px solid #263a2e;padding:22px;box-shadow:0 20px 25px #0b22142b;display:flex;flex-direction:column;gap:17px}.oe-nav-mobile nav a{font-size:15px;font-weight:750}.oe-footer-inner{width:calc(100% - 48px)}.oe-footer-top{align-items:start;flex-direction:column;gap:24px}.oe-footer-links{gap:30px}}
 @media(max-width:540px){.oe-footer-inner{width:calc(100% - 32px)}.oe-site-footer{padding:65px 0 25px}.oe-footer-brand{font-size:clamp(45px,12vw,67px)}.oe-footer-links{grid-template-columns:1fr 1fr;gap:45px 20px;padding:38px 0 65px}.oe-footer-statement{grid-column:span 2}.oe-footer-statement p{font-size:29px}.oe-footer-bottom{flex-wrap:wrap;font-size:9px}}
+
+
+/* Glossary reference library, designed for incremental daily publishing */
+.oe-glossary-intro{padding-bottom:55px}
+.oe-glossary-intro h1{max-width:1050px}
+.oe-glossary-intro p{max-width:770px}
+.oe-glossary-stats{display:flex;align-items:center;gap:40px;flex-wrap:wrap;border-top:1px solid #bcc8bc;padding:26px 0 0;margin-top:45px}
+.oe-glossary-stats div{display:flex;flex-direction:column;gap:4px;border-right:1px solid #ccd5ca;padding-right:40px}
+.oe-glossary-stats div:last-child{border-right:0}
+.oe-glossary-stats strong{font:normal 54px/.95 var(--serif);color:#be5a3e;letter-spacing:-.06em}
+.oe-glossary-stats span{font-size:10px;font-weight:850;letter-spacing:.12em;color:#5a675c}
+.oe-glossary-search{padding:35px 0 25px;border-top:3px solid #183127;border-bottom:1px solid #899c8c}
+.oe-glossary-search form>label{display:block;font-size:11px;letter-spacing:.15em;font-weight:850;margin-bottom:16px;color:#2f5947}
+.oe-glossary-search-row{display:grid;grid-template-columns:minmax(0,1fr) 225px 185px;gap:10px}
+.oe-glossary-search-row input,.oe-glossary-search-row select{border:1px solid #b2c1b6;border-radius:0;background:white;color:#15291e;padding:15px 16px;min-height:54px;min-width:0;font:15px var(--sans)}
+.oe-glossary-search-row button{border:0;background:#193a29;color:#f2f4e8;font-size:11px;letter-spacing:.1em;font-weight:850;display:flex;align-items:center;justify-content:space-between;padding:13px 19px;transition:background .2s}
+.oe-glossary-search-row button:hover{background:#c65a3c}
+.oe-glossary-search-row button span{font-size:23px;font-weight:400}
+.oe-glossary-subline{display:flex;justify-content:space-between;align-items:center;gap:15px;padding-top:22px;font-size:11px;font-weight:800;letter-spacing:.09em;color:#627369}
+.oe-glossary-subline a{text-decoration:underline}
+.oe-glossary-list{border-bottom:2px solid #183127}
+.oe-term{display:grid;grid-template-columns:160px minmax(0,1fr);gap:35px;border-bottom:1px solid #cbd4ca;padding:44px 0 48px;scroll-margin-top:22px}
+.oe-term:last-child{border-bottom:0}
+.oe-term-marker{display:flex;gap:20px;justify-content:space-between;align-items:start;font:italic 34px var(--serif);color:#be6048}
+.oe-term-marker span{font:normal 25px var(--sans);color:#426b58}
+.oe-term-tag{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#42785d}
+.oe-term h2{font:normal clamp(32px,3.8vw,54px)/1.12 var(--serif);letter-spacing:-.035em;margin:13px 0 22px}
+.oe-term-definition{font-size:17px;color:#243f31;line-height:1.75;max-width:880px}
+.oe-term-context{font-size:15px;color:#68776b;line-height:1.75;margin-top:17px;max-width:840px}
+.oe-term-source{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;border-top:1px solid #d4ded2;margin-top:27px;padding-top:15px}
+.oe-term-source>span{font-size:10px;letter-spacing:.13em;font-weight:800;color:#788a7c}
+.oe-term-source a{color:#23634a;font-size:13px;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.oe-glossary-pagination{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-top:35px;font-size:13px}
+.oe-glossary-pagination>div>a,.oe-glossary-pagination>div>span{font-weight:800}
+.oe-glossary-pagination>div>span{opacity:.45}
+.oe-glossary-page-links{display:flex;gap:7px;align-items:center;flex-wrap:wrap}
+.oe-glossary-page-links>span{display:flex;align-items:center}
+.oe-glossary-page-links a{padding:7px 13px;border:1px solid #b8c4b7}
+.oe-glossary-page-links a[aria-current=page]{background:#16392b;color:white}
+.oe-glossary-ellipsis{padding:0 9px;color:#718475}
+.oe-glossary-disclaimer{background:#e1e9dc;padding:37px;margin-top:70px}
+.oe-glossary-disclaimer strong{font:normal 31px var(--serif)}
+.oe-glossary-disclaimer p{font-size:15px;color:#526358;line-height:1.8;max-width:900px;margin:15px 0}
+.oe-glossary-disclaimer a{font-size:13px;font-weight:800;text-decoration:underline}
+.oe-glossary-empty{padding:70px 0;border-bottom:1px solid #d2dbd0}.oe-glossary-empty h2{font:normal 38px var(--serif)}.oe-glossary-empty p{margin:14px 0 20px;color:#5a6a5d}
+@media(max-width:800px){.oe-glossary-search-row{grid-template-columns:1fr 180px}.oe-glossary-search-row button{grid-column:span 2}.oe-term{grid-template-columns:80px 1fr;gap:24px}.oe-glossary-stats{gap:22px}.oe-glossary-stats div{padding-right:21px}}
+@media(max-width:560px){.oe-glossary-stats div{border:0;min-width:115px}.oe-glossary-stats strong{font-size:44px}.oe-glossary-stats span{font-size:9px}.oe-glossary-search-row{grid-template-columns:1fr}.oe-glossary-search-row button{grid-column:auto}.oe-glossary-subline{flex-direction:column;align-items:flex-start}.oe-term{grid-template-columns:1fr;gap:10px;padding:35px 0}.oe-term-marker{font-size:24px}.oe-term-marker span{display:none}.oe-term h2{font-size:37px}.oe-term-definition{font-size:15px}.oe-glossary-pagination{flex-wrap:wrap}.oe-glossary-page-links{order:3;width:100%;justify-content:center}.oe-glossary-disclaimer{padding:26px}}

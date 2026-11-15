@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run audit:editorial && npm run audit:dispatches && next build",
+    "build": "npm run audit:editorial && npm run audit:dispatches && npm run audit:glossary && next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "audit:editorial": "node scripts/editorial-audit.mjs",
-    "audit:dispatches": "node scripts/validate-dispatches.mjs"
+    "audit:dispatches": "node scripts/validate-dispatches.mjs",
+    "audit:glossary": "node scripts/validate-glossary.mjs"
   },
   "dependencies": {
     "next": "^15.5.0",

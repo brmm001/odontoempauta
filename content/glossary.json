@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "cbct",
+    "term": "Tomografia computadorizada de feixe cônico (CBCT)",
+    "category": "Radiologia",
+    "definition": "Exame de imagem que produz um volume tridimensional a partir de projeções obtidas com feixe cônico de raios X. Pode ajudar a responder perguntas clínicas específicas, mas não substitui a avaliação profissional nem é indicado automaticamente para todos os pacientes.",
+    "context": "A escolha entre tomografia e radiografia convencional depende da indicação, da informação necessária, da disponibilidade de exames anteriores e dos princípios de radioproteção. A resolução das imagens e o campo de visão devem ser avaliados por equipe habilitada.",
+    "source": {
+      "title": "ADA — X-Rays/Radiographs",
+      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays-radiographs"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "cpo-d",
+    "term": "Índice CPO-D",
+    "category": "Saúde pública",
+    "definition": "Indicador epidemiológico de experiência de cárie em dentes permanentes. Considera dentes classificados como cariados, perdidos por cárie e obturados segundo critérios definidos no protocolo do estudo.",
+    "context": "O CPO-D médio é utilizado para descrever populações e comparar recortes com cautela. Não representa o diagnóstico de uma pessoa, não informa sozinho as causas da doença e exige atenção à faixa etária, amostra e metodologia.",
+    "source": {
+      "title": "Ministério da Saúde — SB Brasil 2023",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/sb_brasil_2023_relatorio_final_1edrev.pdf"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "equipamentos-de-protecao-individual",
+    "term": "Equipamentos de proteção individual (EPI)",
+    "category": "Biossegurança",
+    "definition": "Conjunto de equipamentos destinados à proteção do trabalhador contra riscos identificados nas atividades realizadas. A seleção e o uso exigem adequação ao procedimento e às normas de segurança aplicáveis.",
+    "context": "Em odontologia, barreiras de proteção não substituem higiene das mãos, processamento correto de materiais nem medidas de organização do ambiente. Um programa de prevenção de infecções inclui treinamento e avaliação contínua das práticas.",
+    "source": {
+      "title": "CDC — Infection Prevention in Dental Settings",
+      "url": "https://www.cdc.gov/dental-infection-control/hcp/summary/"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "evidencia-cientifica",
+    "term": "Evidência científica",
+    "category": "Pesquisa",
+    "definition": "Informação produzida a partir de investigação sistemática e métodos explicitados, sujeita a crítica, reprodução e eventual revisão. A força de uma evidência depende do desenho do estudo, da execução, das medidas e de sua aplicabilidade.",
+    "context": "Uma revisão sistemática não torna resultados automaticamente aplicáveis a todo paciente. É importante examinar o contexto, o risco de viés, a consistência entre pesquisas e as limitações reconhecidas pelos autores antes de formular recomendações.",
+    "source": {
+      "title": "PubMed — National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "escaneamento-intraoral",
+    "term": "Escaneamento intraoral",
+    "category": "Tecnologia",
+    "definition": "Captura óptica de estruturas bucais para formar registros digitais usados em determinados fluxos de diagnóstico e reabilitação. O desempenho varia conforme o equipamento, a extensão do trabalho e a técnica aplicada.",
+    "context": "A comparação com a moldagem convencional deve considerar precisão, conforto, tempo clínico e integração com o laboratório. Resultados de estudos em restaurações unitárias não devem ser automaticamente estendidos a reabilitações de arcada completa.",
+    "source": {
+      "title": "PubMed — estudo sobre impressões digitais",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40314130/"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "moldagem-convencional",
+    "term": "Moldagem convencional",
+    "category": "Tecnologia",
+    "definition": "Procedimento que registra fisicamente estruturas da boca por meio de materiais e técnicas apropriados. Pode integrar etapas de planejamento, confecção de modelos e trabalho protético.",
+    "context": "A moldagem convencional continua relevante em diferentes indicações clínicas. A escolha entre os métodos digitais e físicos depende da finalidade e das evidências para o caso, não apenas de uma preferência por tecnologias novas.",
+    "source": {
+      "title": "PubMed — técnicas de impressão em arcada completa",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39134687/"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "precaucoes-padrao",
+    "term": "Precauções padrão",
+    "category": "Biossegurança",
+    "definition": "Conjunto de medidas básicas de prevenção de infecções aplicadas no atendimento de saúde, independentemente de haver diagnóstico conhecido de uma infecção específica no paciente.",
+    "context": "Inclui avaliação de riscos, higiene das mãos, seleção adequada de barreiras, segurança no uso de perfurocortantes e rotinas de limpeza e processamento de materiais. Os detalhes operacionais devem seguir as normas e os protocolos aplicáveis.",
+    "source": {
+      "title": "CDC — Infection Prevention in Dental Settings",
+      "url": "https://www.cdc.gov/dental-infection-control/hcp/summary/"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "rdc",
+    "term": "Resolução da Diretoria Colegiada (RDC)",
+    "category": "Regulação",
+    "definition": "Ato normativo emitido por diretoria colegiada de agência reguladora, nos limites de suas competências legais. Na área sanitária, pode estabelecer obrigações e parâmetros para serviços e produtos regulados.",
+    "context": "A interpretação de uma RDC depende do texto vigente, de seu âmbito de aplicação e de normas relacionadas. Resumos de blogs podem facilitar a leitura inicial, mas não substituem a consulta a documentos oficiais e, quando necessário, a orientação técnica.",
+    "source": {
+      "title": "Anvisa — portal institucional",
+      "url": "https://www.gov.br/anvisa/pt-br"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "roteiro-objetivo-de-inspecao",
+    "term": "Roteiro Objetivo de Inspeção (ROI)",
+    "category": "Regulação",
+    "definition": "Ferramenta que organiza critérios utilizados na avaliação de condições sanitárias de estabelecimentos, contribuindo para inspeções mais consistentes e orientadas por riscos.",
+    "context": "O roteiro ajuda a compreender o que será observado em determinado serviço, porém não substitui as normas que fundamentam a inspeção. O uso deve levar em conta versões atualizadas, a categoria do estabelecimento e regras locais pertinentes.",
+    "source": {
+      "title": "Anvisa — roteiros objetivos de inspeção",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/servicosdesaude"
+    },
+    "publishedAt": "2026-11-14"
+  },
+  {
+    "slug": "documentos-de-boas-praticas",
+    "term": "Documentos de boas práticas de funcionamento",
+    "category": "Regulação",
+    "definition": "Conjunto de registros, rotinas, protocolos e procedimentos descritos para apoiar a organização e a segurança de serviços de saúde. Sua exigência e abrangência dependem da norma e do tipo de estabelecimento.",
+    "context": "Documentação confiável deve corresponder à prática cotidiana, com responsáveis e atualização definidos. Ter um arquivo pronto não garante conformidade se a rotina não for compreendida pela equipe ou não houver registros de sua execução.",
+    "source": {
+      "title": "Anvisa — serviços odontológicos e regulamentação",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/servicosdesaude"
+    },
+    "publishedAt": "2026-11-14"
+  }
+]
