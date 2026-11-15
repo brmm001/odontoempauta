@@ -11,6 +11,7 @@ export default function sitemap():MetadataRoute.Sitemap{
  return [
  ...pages.map(p=>({url:SITE_URL+p,changeFrequency:'weekly' as const,priority:p===''?1:p==='/artigos'?0.9:0.6,...(p==='/glossario'?{lastModified:new Date(updated+'T12:00:00-03:00')}:{} )})),
  ...glossaryPages,
+ ...glossaryEntries.map(e=>({url:SITE_URL+'/glossario/'+e.slug,lastModified:new Date(e.publishedAt+'T12:00:00-03:00'),changeFrequency:'monthly' as const,priority:0.65})),
  ...articles.map(a=>({url:SITE_URL+'/artigos/'+a.slug,lastModified:new Date((a.updatedAt||a.publishedAt)+'T12:00:00-03:00'),changeFrequency:'monthly' as const,priority:a.featured?0.9:0.75}))
  ];
 }

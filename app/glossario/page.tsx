@@ -22,7 +22,7 @@ export default async function Glossario({searchParams}:Props){
  const makeUrl=(page:number)=>{const query=new URLSearchParams();if(q)query.set('q',q);if(categoria)query.set('categoria',categoria);if(page>1)query.set('pagina',String(page));const s=query.toString();return '/glossario'+(s?'?'+s:'')};
  const firstVisible=(current-1)*GLOSSARY_PAGE_SIZE+1;
  const pageLinks=Array.from(new Set([1,current-2,current-1,current,current+1,current+2,pages].filter(n=>n>=1&&n<=pages))).sort((a,b)=>a-b);
- const schema={'@context':'https://schema.org','@type':'DefinedTermSet',name:'Glossário Odonto em Pauta',inLanguage:'pt-BR',url:SITE_URL+'/glossario',description:'Termos técnicos de odontologia explicados em linguagem acessível com contexto e fontes.',hasDefinedTerm:entries.map(e=>({'@type':'DefinedTerm',name:e.term,description:e.definition,url:SITE_URL+makeUrl(current)+'#'+e.slug}))};
+ const schema={'@context':'https://schema.org','@type':'DefinedTermSet','@id':SITE_URL+'/glossario#glossary',name:'Glossário Odonto em Pauta',inLanguage:'pt-BR',url:SITE_URL+'/glossario',description:'Termos técnicos de odontologia explicados em linguagem acessível com contexto e fontes.',hasDefinedTerm:entries.map(e=>({'@type':'DefinedTerm',name:e.term,description:e.definition,url:SITE_URL+makeUrl(current)+'#'+e.slug}))};
  return <main className="page-container inside-page oe-glossary">
   <div className="page-topline"><span>REFERÊNCIA / GLOSSÁRIO</span><span>DEFINIÇÕES CONTEXTUALIZADAS</span></div>
   <div className="inside-header oe-glossary-intro">
